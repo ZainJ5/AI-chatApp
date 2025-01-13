@@ -1,0 +1,53 @@
+/* CreateProjectForm.css */
+
+.create-project-form {
+    margin: 50px auto;
+    padding: 40px;
+    width: 800px; /* Maximum width */
+    background-color: #f9f9f9; /* Lighter background color */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 30px; /* Increased space between form groups */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased space below labels */
+  }
+  
+  input[type='text'],
+  input[type='date'],
+  textarea {
+    width: calc(100% - 20px);
+    padding: 15px;
+    border: 1px solid #ddd; /* Softer border color */
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type='text']:focus,
+  input[type='date']:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #0f3549; /* Focus border color */
+  }
+  
+  button {
+    padding: 12px 24px; /* Slightly increased padding */
+    background-color: #ffffff; /* Main button color */
+    color: #2e2c2c; /* Button text color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* button:hover {
+    background-color: #27ae60; /* Hovered button color */
+  
+  
